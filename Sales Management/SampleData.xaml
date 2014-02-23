@@ -1,0 +1,18 @@
+﻿<vm:AdministrationQuestionModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:Sales_Management.Entities">
+
+    <vm:AdministrationQuestionModel.QuestionGroup>
+
+        <vm:AdministrationQuestionGroup>
+            <vm:AdministrationQuestionGroup.ListQuestions>
+                <vm:AdministrationQuestion caseStudyNode="A" caseStudyTitle="First Case Study Title First Case Study Title" />
+                <vm:AdministrationQuestion caseStudyNode="B" caseStudyTitle="Second Case Study Title Second Case Study Title" />
+                <vm:AdministrationQuestion caseStudyNode="C" caseStudyTitle="Third Case Study Title Third Case Study Title" />
+            </vm:AdministrationQuestionGroup.ListQuestions>
+        </vm:AdministrationQuestionGroup>
+
+    </vm:AdministrationQuestionModel.QuestionGroup>
+            
+</vm:AdministrationQuestionModel>
